@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{
+	width:600px;
+	height:600px;
+	background-color:red;
+	background-image:url("../background 10-9-19/2_32_thumb.gif");
+	background-repeat:no-repeat;
+	/*background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	background-position:top left;
+	background-position:top right;
+	background-position:top center;
+	background-position:bottom right;
+	background-position:bottom left;
+	background-position:bottom center;
+		background-position:center right;
+	background-position:center left;
+	background-position:center center;
+	
+	*/
+	background-position:200px 100px;
+}
