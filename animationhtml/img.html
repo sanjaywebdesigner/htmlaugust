@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		@keyframes sanjay{
+			0%{
+				background-image:url("image1.jpg");
+			}
+			16.66%{
+				background-image:url("image1.jpg");
+			}
+			33.33%{
+				background-image:url("image2.jpg");
+			}
+			50%{
+				background-image:url("image2.jpg");
+			}
+			66.66%{
+				background-image:url("image3.jpg");
+			}
+			83.33%{
+				background-image:url("image4.jpg");
+			}
+			100%{
+				background-image:url("image1.jpg");
+			}
+		}
+		@keyframes sanjay1{
+			0%{
+				left:0;opacity:1;
+			}
+			16.66%{
+				left:0;opacity:1;
+			}
+			
+			33.33%{
+				left:-100px;opacity:1;
+			}
+			50%{
+				left:-100px;opacity:1;
+			}
+			50.33%{
+				left:-100px;opacity:0;
+			}
+			66.33%{
+				left:-200px;opacity:0;
+			}
+			66.66%{
+				left:-200px;opacity:1;
+			}
+			99.99%{
+				left:-200px;opacity:1;
+			}
+			100%{
+				left:0px;opacity:1;
+			}
+		}
+		.s1{
+			width:100px;
+			height:100px;
+			background-image:url("image1.jpg");
+			animation:10s sanjay infinite;
+		}
+		.s2{
+			width:100px;
+			height:50px;
+			line-height:50px;
+			text-align: center;
+			position:relative;
+			overflow:hidden;
+		}
+		.s3{
+			width:400px;
+			height:50px;
+			
+			
+			
+			left:0;
+			opacity:1;
+			position:absolute;
+			animation:sanjay1 10s infinite;
+		}
+		.a1{
+			width:100px;
+			height:50px;
+		float:left;
+			
+		}
+	</style>
+</head>
+
+<body>
+	
+	
+	<div class="s1"></div>
+	<div class="s2">
+		<div class="s3">
+	<div class="a1">Image1</div>
+		<div class="a1">image2</div>
+		<div class="a1">image3</div>
+			<div class="a1">Image4</div></div>
+	</div>
+</body>
+</html>
