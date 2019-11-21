@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.a1,.a3,.a5{
+			width:200px;
+			height:50px;
+			background-color:red;
+			border:1px solid black;
+		}
+		.a2,.a4,.a6{
+			width:200px;
+			height:0px;
+			background-color:green;
+			border:1px solid black;
+		}
+		#s1:target .a2,#s2:target .a4,#s3:target .a6{
+			height:200px;
+			transition:1s;
+		}
+		.c3{
+			width:200px;
+			height:200px;
+			background-color:green;
+			border:1px solid black;
+		}
+		#s1:target .c3,#s2:target .c3,#s3:target .c3{
+			display:none;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="s1">
+	<div id="s2">
+		<div id="s3">
+		
+		
+			<a href="#s1"><div class="a1"></div></a>
+			<div class="c3"></div>
+			<div class="a2"></div>
+			<a href="#s2"><div class="a3"></div></a>
+			<div class="a4"></div>
+			<a href="#s3"><div class="a5"></div></a>
+			<div class="a6"></div>
+			</div>
+		
+		</div>
+	</div>
+</body>
+</html>
